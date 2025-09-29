@@ -76,7 +76,7 @@ int main() {
     int Hitung_pembayaran = (cucur * hargacucur) + (biapong * hargabiapong) + (balapis * hargabalapis) + (nasijaha * harganasijaha) + (risol * hargarisol);
     
     // rumus disini
-    long hasil = Hitung_pembayaran - (Hitung_pembayaran * diskon);
+    double hasil = Hitung_pembayaran - (Hitung_pembayaran * diskon);
     int jumlah_bakul = Hitung_pembayaran / harga_per_bakul;
 
     if(Hitung_pembayaran >= harga_per_bakul * 3) {
